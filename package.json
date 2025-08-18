@@ -1,0 +1,17 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "This is the backend project creating from chai and backend series from youtube.",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "node": "npm run start"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "backend"
+  ],
+  "author": "Mohammed Tinwala",
+  "license": "ISC"
+}
