@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "This is the backend project creating from chai and backend series from youtube.",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "node": "npm run start"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "node",
@@ -13,5 +13,8 @@
     "backend"
   ],
   "author": "Mohammed Tinwala",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
