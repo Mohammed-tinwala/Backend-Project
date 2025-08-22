@@ -10,7 +10,7 @@ const connectDB = async () => {
         
         
     } catch (error) {
-        console.log("ERROR:", error);
+        console.log("MongoDB Failed Error at catch in db folder", error);
         process.exit(1);   // If any error comes than it will exit the process same as throw error.
     }
     
