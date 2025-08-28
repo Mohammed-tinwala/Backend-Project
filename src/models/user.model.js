@@ -47,7 +47,7 @@ const userSchema = new Schema({
 
 userSchema.pre("save", async function (next) {
     if (!this.isModified("password")) return next();   // if password doesnt modified by the user then we dont need to hash the password again and again.  
-    this.password = bcrypt.hash(this.password, 10);   // 10 round hashing
+    this.password = await bcrypt.hash(this.password, 10);   // 10 round hashing
     next();
 })
 
